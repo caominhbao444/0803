@@ -1,0 +1,37 @@
+.request-title {
+  width: 100%;
+}
+
+.request-action {
+  cursor: pointer;
+}
+
+.user-address {
+  display: block;
+  white-space: nowrap;
+  width: 15em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-request-table-container {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.user-request-table-container::-webkit-scrollbar-track {
+  padding: 2px 0;
+}
+
+.user-request-table-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.user-request-table-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .user-request-table-container * {
+    font-size: 13px;
+  }
+}
